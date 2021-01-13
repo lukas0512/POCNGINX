@@ -1,0 +1,27 @@
+version: "3.7"
+services: 
+  login:
+    container_name: login
+    build: 
+      context: ./
+
+  journey:
+    container_name: journey
+    build: 
+      context: ./journey
+
+  admin:
+    container_name: admin
+    build: 
+      context: ./admin
+
+  nginx:
+    container_name: nginx
+    ports:
+      - "80:80"
+    depends_on: 
+      - login
+      - journey
+      - admin
+    build:
+      context: .

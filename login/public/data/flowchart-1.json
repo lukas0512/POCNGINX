@@ -1,0 +1,62 @@
+{
+    "nodes": [
+        {
+            "key": "start",
+            "type": "api",
+            "left": 829,
+            "top": 14,
+            "width": 208,
+            "height": 158,
+            "parent": null,
+            "childs": [],
+            "text": "5e20a67fb9729c0aa07d916f",
+            "status": 0,
+            "configuration": {
+                "id": "start",
+                "tenantId": "5524151a19a226aab39c24e3",
+                "workflowId": "5e20a68ab9729c0aa07d9170",
+                "nodeId": null,
+                "senderId": null,
+                "template": null,
+                "content": null,
+                "kind": 0,
+                "timeToShoot": 0,
+                "title": null,
+                "attachments": [],
+                "conditionalTotalConversion": 0,
+                "sendersCount": 1551493440,
+                "sendersEventCount": 0,
+                "eConditionalStatus": 0,
+                "eventTypes": 0,
+                "eBoxType": 0
+            },
+            "id": "ade07f59-db32-46a0-8f8c-0191ff3a5768"
+        },
+        {
+            "type": "email",
+            "width": 208,
+            "height": 110,
+            "text": "Texto teste 124",
+            "configuration": {
+                "type": "channel",
+                "name": "email"
+            },
+            "top": 194,
+            "left": 829,
+            "key": "629aaa40-3894-11ea-8445-414391408a37",
+            "id": "00acfb7e-fb89-48a7-ab44-b5dd76f547fb"
+        }
+    ],
+    "edges": [
+        {
+            "source": "ade07f59-db32-46a0-8f8c-0191ff3a5768",
+            "target": "00acfb7e-fb89-48a7-ab44-b5dd76f547fb",
+            "data": {
+                "label": "...",
+                "type": "connection"
+            }
+        }
+    ],
+    "ports": [],
+    "groups": []
+}
